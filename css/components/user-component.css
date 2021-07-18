@@ -2,10 +2,15 @@
   justify-content: space-between;
 }
 
-.user-component,
-.user-component__column:first-child {
+.user-component{
   display: flex;
   align-items: center;
+
+}
+.user-component__column {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
 }
 .user-component__avatar {
   width: 70px;
@@ -43,4 +48,13 @@
 .user-component__time {
   margin-bottom: 10px;
   display: block;
+}
+.user-component__phone-warn{
+  display: flex;
+
+}
+.user-component__phone-warn i{
+  margin-left: 9px;
+  color: tomato;
+  margin-top: 8.5px;
 }

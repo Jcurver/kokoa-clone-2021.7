@@ -12,4 +12,18 @@
 }
 .screen-header__icons span{
     margin-left: 25px;
+    position: relative;
+}
+
+@keyframes rotatecog{
+    form{
+
+        transform: none;
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+}
+.screen-header__icons .fa-cog:hover {
+    animation: rotatecog 1s linear infinite; 
 }
